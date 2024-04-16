@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(to bottom right, rgb(234, 13, 13), rgb(165, 102, 109));
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  background-color: white;
+  min-height: 400px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.content h1 {
+  text-align: center;
+  color: #333;
+}
+.content input {
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 10px;
+  border-bottom: 1px solid #6d6868;
+  outline: none;
+}
+.content button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.content ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+.content li {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .content {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content {
+    width: 600px;
+    height: 700px;
+  }
+}
+
+.title {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
